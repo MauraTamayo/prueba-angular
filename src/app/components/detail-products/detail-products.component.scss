@@ -1,0 +1,279 @@
+.box-general{
+    height: 80vh;
+}
+
+.box-second-general{
+    margin-top: 20px;
+    padding-right: 2%;
+}
+
+.box-detail-img{
+    margin: 0 0 0 auto;
+    width: 80%;
+    border: 2px solid #EEEFF2;
+    text-align: center;
+    height: 45vh;
+    border-radius: 8px;
+    object-fit: contain;
+    .img-banner{
+        margin: -8px auto auto auto;
+        padding: 12px;
+        width: 100%;
+        
+        img{
+        max-width: 100%;
+        width: 50vh;
+        margin: auto;
+        height: 40vh;
+        object-fit: contain;
+
+        #imgparteaudifonos{
+            width: 94%;
+            
+            
+        }
+    } 
+    }
+    
+}
+
+
+.imgs{
+    margin: 0 0 0 auto;
+    width: 80%; 
+}
+
+.img-min{
+
+    padding: 0;
+    // margin: 0;
+    .imgaudifonos{
+        margin: 12px 0 0 0px;
+        border: 2px solid #EEEFF2;
+        border-radius: 8px;
+        text-align: center;
+        display: flex;
+        height: 70%;
+        width: 98%;
+        cursor: pointer;
+        img{
+            width: 95%;
+            max-height: 100%;
+            margin: auto;
+         
+        }#imgparteaudifonos{
+            margin: auto;
+            text-align: right;
+            object-fit: contain;
+            
+        }
+    }
+    .imgaudifonos:hover{
+        border: 2px solid #B6BCC6;
+    }
+    .imgaudifonos:active{
+        border: 2px solid #1E96D4;
+    }
+    .imgaudifonos:focus{
+        border: 2px solid #1E96D4;
+    }
+}
+#PartesAdifonos{
+    margin: 12px 0 0 auto;
+    border: 2px solid #EEEFF2;
+    display: flex;
+    height: 70%;
+    width: 98%;
+}#PartesAdifonos:hover{
+    border: 2px solid #B6BCC6;
+}#PartesAdifonos:active{
+    border: 2px solid #1E96D4;
+}
+.icon-col{
+    padding: 0;
+    margin-top: auto;
+
+}
+
+.option-view{
+    margin: 23px 0 0 auto;
+    width: 80%;        
+    .box-icon{
+        margin: auto;
+        .icon{
+            object-fit: contain;
+            img{
+                object-fit: contain;
+                display: flex;
+                margin: auto;
+                height: 27px;         
+            }                           
+        }
+    }
+}
+    
+.subtitle-info-icon{
+    font-weight: 400;
+    font-size: 12px;
+    color: #111111;
+    width: 100%;
+    text-align: center;
+    margin-top: 13px;
+    display: block;
+}
+
+
+
+.subContainerDos{
+    margin-right: 15%;
+    padding-left: 2%;
+}
+.subContainer{
+    padding: 0;
+    height: 70%;
+    max-height: 80vh;
+    overflow: scroll;
+    
+    .release{
+        color: #CB253C;
+        font-size: 13.33px;
+        font-weight: 400;
+        margin: 0%;
+    }
+    // cambiar el tipo de letra 
+    h1{
+        font-weight: 700;
+        color: #111111;
+        margin: 0;
+        font-size: 39px;
+    }
+    h2{
+        color: #6B7280;
+        font-weight: 400;
+        font-size: 27px;
+        margin-top: 0%;
+        margin-bottom: 7%;
+    }
+    .starting{
+        font-size: 13.3px;
+        color: #6B7280;
+    }
+    .info-object{
+        margin-top: 7%;
+        margin-bottom: 7%;
+        .title-info{
+            font-size: 19.2px;
+            font-weight: 500;
+            color: #6B7280;
+            // cuando le da click cambia a negro y linea de bajo
+            // margin-top para separar un poco el parrafo
+        }
+    }
+    .card-choose{
+        margin-bottom: 9%;
+        padding: 0;
+        p{
+            font-size: 14px;
+            line-height: 1.4;
+        } 
+    }
+    .card-warranty{
+        margin-bottom: 9%;
+        .box{
+            .subprecio{
+                display: flex;
+            }.subtitle-info-dos{
+                margin: 0 0 17px auto;
+            }p{
+                font-size: 14px;
+                line-height: 1.4;
+            }
+        }
+        
+        .box:hover{
+            border: 2px solid #B6BCC6;
+        }
+    }
+    .card-Features{
+        margin-bottom: 9%;
+        .subtitle-info{
+            margin: 0;
+        }
+        .subtitle-info-dos{
+            margin: 0 0 0 auto;
+        }
+        .box{
+            display: flex;
+        }
+        .box:hover{
+            border: 2px solid #B6BCC6;
+        }
+    }
+    .card-specifications{
+        margin: 17px 0 17px 0;
+        .sub-specifications{
+            display: flex;
+        }
+    }
+}
+
+.subtitle-info-dos{
+    font-weight: 500;
+    font-size: 14px;
+    color: #111111;
+    margin: 17px 0 17px auto;
+    text-align: end;
+}
+
+.box{
+    border: 2px solid #EEEFF2;
+    border-radius: 8px;
+    margin: 0%;
+    padding: 20px;
+    margin-bottom: 12px;
+}
+
+
+.subtitle-info{
+    font-weight: 500;
+    font-size: 14px;
+    color: #111111;
+    margin: 17px 0 17px 0;
+}
+
+.title-info{
+    font-weight: 500;
+    font-size: 19.2px;
+    color: #111111;
+    line-height: 1.25;
+    margin-bottom: 2%;
+    margin-right: 15px;
+}
+
+p{
+    color: #6B7280;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+hr{
+    margin: 0;
+    color: 2px solid #EEEFF2;
+}
+
+@media screen and (max-width: 768px) {
+    /* For tablets: */
+    .box-detail-img{
+        margin: auto;
+        .img-banner{
+            margin: auto;
+        }.img{
+            width: 40vh;
+        }
+    }
+
+    .subContainer{
+        overflow: hidden;
+    }
+    
+}

@@ -1,0 +1,259 @@
+<!-- contenedor -->
+<div class="box-general">
+  <div class="box-second-general row">
+
+    <!-- Galeria -->
+    <div class="subContaineruno col-md-6 col-12">
+      <!-- imagen visualizada -->
+
+      <div class="banner-detail-img">
+        <div class="box-detail-img">
+          <div id="main-galery" class="img-banner">
+            <img src="../../../assets/img/audifonos.png" alt="">
+          </div>
+          
+        </div>
+
+        <!-- imagenes miniaturas -->
+        <div class="imgs" style="display: flex;">
+
+          <div class="img-min">
+            <div id="audi" class="imgaudifonos" (click)="SetImage('audi')">
+              <img src="../../../assets/img/audifonosx1.png" alt="">
+            </div>
+          </div>
+
+          <div class="img-min">
+            <div id="auditwo" style="margin: 12px auto 0 auto;" class="imgaudifonos" (click)="SetImage('auditwo')">
+              <img src="../../../assets/img/audifonosDosx3.png" alt="">
+            </div>
+          </div>
+
+          <div class="img-min" id="columtresPartesAdifonos">
+            <div class="imgaudifonos" id="PartesAdifonos"(click)="SetImage('PartesAdifonos')">
+              <img id="imgparteaudifonos" src="../../../assets/img/Partesx3.png" alt="">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- opciones de previzualizacion  -->
+      <div class="option-view">
+        <!-- <p (click)="sumadre()">HELLO</p>
+        <p id="hihi">My texto alrgo hahahaha My texto alrgo hahahaha My texto alrgo hahahaha</p>
+     -->
+        <div class="row" style="margin: 0;">
+
+          <div class="icon-col col-md-4 col-12">
+
+            <div class="box-icon">
+
+              <div class="icon">
+                <img src="../../../assets/img/clicx2.png" alt="">
+              </div>
+
+              <div class="title-icon">
+                <span class="subtitle-info-icon">Customizable Touch Controls</span>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="icon-col col-md-4 col-12">
+            <div class="box-icon">
+
+              <div class="icon">
+                <img src="../../../assets/img/shapex2.png" alt="">
+              </div>
+
+              <div class="title-icon">
+                <span class="subtitle-info-icon">Built-in Equalizer</span>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="icon-col col-md-4 col-12">
+            <div class="box-icon">
+
+              <div class="icon">
+                <img src="../../../assets/img/combinx2.png" alt="">
+              </div>
+
+              <div class="title-icon">
+                <span class="subtitle-info-icon">Aactive Noise Cancellation</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- caracteristicas -->
+    <div class="subContainer col-6 col-md-6 col-12">
+      <div class="subContainerDos">
+           
+        <!-- titulo informativo  -->
+      <div>
+        <span class="release">NEW RELEASE</span>
+        <h1>MOMENTUM True Wireless 2</h1>
+        <h2>Earbuds that put sound first</h2>
+
+        <span class="starting">STARTING AT</span>
+        <h1>$295.95</h1>
+      </div>
+
+      <!-- banner informativo  -->
+      <div class="info-object">
+       
+            <div style="display: flex;">
+              <div class="title-info" (click)="tab('overview','features','the-box')">Overview</div>
+              <div class="title-info" (click)="tab('features','overview','the-box')">Features</div>
+              <div class="title-info" (click)="tab('the-box','features','overview')">What's in the box?</div>
+            </div>
+
+            <div id="overview" style="display: block;">
+              <p>For the past 75 years, Sennheiser has put sound first. The new MOMENTUM True Wireless 2 is no different.
+                Thanks to leading audio technology and innovation, these new earbuds deliver the best listening experience
+                anytime, anywhere. With improved ergonomics designed for full day wearing and refined touch controls for a
+                more personalised experience, they have been finely crafted for the most discerning listener and aim to
+                simplify your life by enhancing your everyday.</p>
+            </div>
+            
+            <div id="features" style="display: none;">
+              <p>
+                Unmatched stereo sound: From classic to contemporary, each musical genre is enhanced with the custom
+                drivers of the new MOMENTUM Ture Wireless 2 headphones thanks to their deep bass, natural and clear mids,
+                and detailed highs.
+                <br>
+                Your sound: Disconnect from your surroundings and immerse yourself in a spectacular song, that important
+                episode or that unexpected call with the Active Noise Cancellation feature.
+                <br>
+                Comfortable to listen to all day: Experience uninterrupted playtime with the new 7-hour battery life, which
+                can be extended up to 28 hours with the charging case.
+              </p>
+            </div>
+            
+            <div id="the-box" style="display: none;">
+              <p>Charging case
+                MTW2 Headphones
+                Silicone ear adapters (in sizes XS, S, M and L)
+                USB-A to USB-C charging cable.
+              </p>
+            </div>
+      </div> 
+
+       
+
+      <!-- El acabado (choose)-->
+      <div class="choose-finish">
+        <div class="title-info">
+          choose your finish
+        </div>
+
+        <div class="card-choose">
+          <div class="row">
+
+            <div class="col-md-6 col-12">
+              <div class="box">
+                <span class="subtitle-info">Ivory white</span>
+                <p>For the past 75 years, Sennheiser has put sound first. The new MOMENTUM True.</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-12">
+              <div class="box">
+                <span class="subtitle-info">Matte Black</span>
+                <p>Of all of the celestial bodies that capture our attention and fascination as astronomers.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Garantia extendida (extended warranty)-->
+      <div class="card-warranty">
+        <div class="title-info">
+          Would you like to add extended warranty coverage?.
+        </div>
+
+        <div class="box">
+          <span class="subtitle-info">2 years coverage</span>
+          <p>For the past 75 years, Sennheiser has put sound first.</p>
+        </div>
+        <div class="box">
+          <span class="subtitle-info">3 years coverage</span>
+          <div class="subprecio">
+            <p>For the past 75 years, Sennheiser has put sound first.</p><span class="subtitle-info-dos">+$75</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Caracteristicas (Features)-->
+      <div class="card-Features">
+        <div class="title-info">
+          Features.
+        </div>
+        <div class="box">
+          <span class="subtitle-info">Voice Assistant support</span>
+        </div>
+        <div class="box">
+          <span class="subtitle-info">Voice Assistant support</span><span class="subtitle-info-dos">+$25</span>
+        </div>
+      </div>
+
+      <!-- Especificaciones (Specifications)-->
+      <div class="card-specifications">
+        <div class="title-info">
+          Specifications.
+        </div>
+        <div class="sub-specifications">
+          <span class="subtitle-info">Dimensions</span><span class="subtitle-info-dos">76.8 x 43.8 x 34.7 mm (earbuds and
+            charging case)</span>
+        </div>
+
+        <hr>
+
+        <div class="sub-specifications">
+          <span class="subtitle-info">USB Standard</span><span class="subtitle-info-dos">USB-C</span>
+        </div>
+
+        <hr>
+
+        <div class="sub-specifications">
+          <span class="subtitle-info">Power supply</span><span class="subtitle-info-dos">Sennheiser 7mm dynamic
+            driver</span>
+        </div>
+
+        <hr>
+
+        <div class="sub-specifications">
+          <span class="subtitle-info">Frequency response (Microphone)</span><span class="subtitle-info-dos">100 Hz to 10
+            kHz</span>
+        </div>
+
+        <hr>
+
+        <div class="sub-specifications">
+          <span class="subtitle-info">Frequency response</span><span class="subtitle-info-dos">5 - 21,000 Hz</span>
+        </div>
+
+        <hr>
+        <div class="sub-specifications">
+          <span class="subtitle-info">Noise cancellation</span><span class="subtitle-info-dos">Single-Mic ANC per earbud
+            side</span>
+        </div>
+        <hr>
+      </div>
+
+      </div>
+  
+    </div>
+  </div>
+</div>
