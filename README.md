@@ -2,7 +2,7 @@
 
 Este es una prueba para solicitante a un puesto como desarrollador Junior.Angular.
 
-## Introdccion
+## Introducción
 
 Este trabajo tiene como finalidad exponer mis conocimientos frente a la programacion web y diseño web.
 El trabajo es una presentacion de un producto.
